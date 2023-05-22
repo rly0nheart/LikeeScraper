@@ -72,14 +72,12 @@ def create_parser():
                         help='The hashtag-id to search for')
     parser.add_argument('-d',
                         '--download',
-                        type=bool,
-                        help='Set to True to download videos.',
-                        default=False)
+                        help='Download videos.',
+                        action='store_true')
     parser.add_argument('-v',
                         '--verbose',
-                        type=bool,
-                        help='Set to False to stop results being printed out.',
-                        default=True)
+                        help='Print results.',
+                        action='store_true')
     return parser
 
 
