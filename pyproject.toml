@@ -25,6 +25,9 @@ dependencies = [
     "selenium",
 ]
 
+[tool.setuptools]
+packages = ["LikeeScraper"]
+
 [project.urls]
 homepage = "https://github.com/Caff1982/LikeeScraper"
 documentation = "https://github.com/Caff1982/LikeeScraper/blob/main/README.md"
